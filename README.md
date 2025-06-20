@@ -1,5 +1,5 @@
-# Medical-Price-prediction
-                         This project predicts the "healthcare costs of individuals" using machine learning models trained on demographic and health-related features. It aims to help users anticipate and manage their medical expenses proactively—especially in an era of rising healthcare demand and cost.
+ Medical-Price-prediction
+        This project predicts the "healthcare costs of individuals" using machine learning models trained on demographic and health-related features. It aims to help users anticipate and manage their medical expenses proactively—especially in an era of rising healthcare     demand and cost.
 
  1. Project Highlights
 
