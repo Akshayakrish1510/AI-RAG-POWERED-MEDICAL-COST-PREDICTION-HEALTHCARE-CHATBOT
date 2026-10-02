@@ -13,7 +13,7 @@ AI & RAG Powered Medical Cost Prediction & Healthcare Assistant
 -Clear distinction between U.S. insurance charges and Indian healthcare pricing
 
 
-Technology
+**Technology**
 
 Language - Python 
 ML - XGBoost, scikit-learn 
@@ -90,7 +90,7 @@ Then open:
 http://127.0.0.1:8000/docs
 ```
 
-ML Pipeline
+**ML Pipeline**
 
 ```text
 Dataset
@@ -110,7 +110,7 @@ Prediction + Empirical Range
 SHAP Explanation
 ```
 
-RAG Pipeline
+**RAG Pipeline**
 
 ```text
 Medical Documents
@@ -130,7 +130,7 @@ Groq LLM
 Answer + Sources
 ```
 
-## 📊 Prediction Output
+**Prediction Output**
 
 The API returns:
 
@@ -144,18 +144,5 @@ The API returns:
 }
 ```
 
-The lower/upper values are an empirical residual-based range for this portfolio experiment. They are **not** a statistical confidence interval and should not be interpreted as an actual hospital or insurer quote.
-
-## 🔍 Explainability
-
-The `/explain` endpoint uses SHAP to identify which transformed input features contributed most to an individual model prediction.
-
-Example:
-
-```text
-smoker_yes     → positive contribution
-bmi            → positive contribution
-age            → positive contribution
-children       → smaller contribution
-```
+The lower/upper values are an empirical residual-based range for this portfolio experiment. They are **not** a statistical confidence interval and should not be interpreted as an actual hospital or insurer quote.```
 
